@@ -1,7 +1,10 @@
-<<<<<<< HEAD
+ HEAD
 body{background:blue;} 
 
 body{font-family:Arial;background:#f4f4f4;margin:0;padding:0;text-align:center;}
 h1{color:blue;font-size:40px;margin-top:20px;}
 button{background:blue;color:white;border:none;padding:10px 20px;border-radius:8px;}
->>>>>>> 3e3148d36a42bb4126acbd06f3880ac100648282
+
+ body {
+    gap: 25px;
+ }
