@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="botoes"></div>
+
+<script>
+const container = document.getElementById("botoes");
+
+for (let i = 1; i <= 3; i++) {
+    const btn = document.createElement("button");
+    btn.textContent = `Botão ${i}`;
+
+    btn.addEventListener("click", () => {
+        alert(`Você clicou no Botão ${i}`);
+    });
+
+    container.appendChild(btn);
+}
+</script>
 </body>
 </html>
